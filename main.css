@@ -1,0 +1,105 @@
+body {
+    background-color: #b5b6b7;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 600px 7fr;
+    grid-template-rows: 20% 30% 30% 20%;
+    grid-gap: 20px;
+    grid-template-areas:
+    "o t t t t t t t"
+    "o tr tr tr tr tr tr tr"
+    "o tr tr tr tr tr tr tr"
+    "f f f f f f f f";
+}
+
+img {
+    filter: grayscale(60%);
+    margin-top: 15px;
+    border-radius: 5px;
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 25px 23px rgba(0, 0, 0, 0.50);
+}
+
+.one p {
+    margin-top: -125px;
+    margin-left: 160px;
+    position: absolute;
+    font-family: Monotype Corsiva, cursive;
+    font-size: 150%;
+    color: white;
+}
+
+.one {
+    grid-area: o;
+    color: white;
+    text-align: center;
+}
+
+.two {
+    grid-area: t;
+    margin-top: 15px;
+    background-color: #1a1d20;
+    height: 100px;
+    border-radius: 5px;
+    box-shadow: 0 25px 23px rgba(0, 0, 0, 0.50);
+}
+
+.two nav ul {
+    list-style-type: none;
+}
+
+.two li {
+   float: left;
+    margin-top: 17px;
+}
+
+.two a {
+    text-decoration: none;
+    padding: 45px;
+    vertical-align: center;
+    color: white;
+    font-family: "Calibri Light", serif;
+    text-align: center;
+    font-size: 115%;
+}
+
+.two a:hover {
+    text-shadow: 1px 1px 2px antiquewhite;
+}
+
+.three {
+    grid-area: tr;
+    /*border: 3px solid white;
+    border-radius: 5px;*/
+    color: white;
+    text-align: center;
+}
+
+.three h1 {
+    font-size: 350%;
+    line-height: 120%;
+    vertical-align: center;
+    font-family: "Arial Black", fantasy;
+}
+
+.three p {
+    font-size: 120%;
+    line-height: 150%;
+    vertical-align: center;
+    font-family: Arial, cursive;
+}
+
+.four {
+    grid-area: f;
+    text-align: center;
+    margin-top: 20%;
+    color: white;
+}
+
+.four p {
+    font-size: 115%;
+    padding: 15px;
+}
