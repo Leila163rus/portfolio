@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b87b5689-88dc-454c-85ed-dddd64834bef" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Cертификаты/Сертификаты.html" beforeDir="false" afterPath="$PROJECT_DIR$/Cертификаты/Сертификаты.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Picture/JavaScript для начинающих.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Picture/javascript-s-nulya-do-profi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Picture/Веб разработка для начинающих HTML и СSS_page-0001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Picture/Для портфолио.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Picture/Предсказания.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Picture/Прогноз погоды.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Picture/Тесты и задачи по HTML CSS и JS_page-0001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Picture/Часы.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Изученные материалы/Изученные материалы.css" beforeDir="false" afterPath="$PROJECT_DIR$/Изученные материалы/Изученные материалы.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Изученные материалы/Изученные материалы.html" beforeDir="false" afterPath="$PROJECT_DIR$/Изученные материалы/Изученные материалы.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Контакты/Контакты.css" beforeDir="false" afterPath="$PROJECT_DIR$/Контакты/Контакты.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Контакты/Контакты.html" beforeDir="false" afterPath="$PROJECT_DIR$/Контакты/Контакты.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Проекты/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/Проекты/data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Проекты/Проекты.css" beforeDir="false" afterPath="$PROJECT_DIR$/Проекты/Проекты.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Проекты/Проекты.html" beforeDir="false" afterPath="$PROJECT_DIR$/Проекты/Проекты.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2eHpxm6IzW4UR2xHkFmW4M4zYyl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/IdeaProjects/Мои проекты/Портфолио",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-2e7d6887c066-JavaScript-WS-241.15989.47" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b87b5689-88dc-454c-85ed-dddd64834bef" name="Changes" comment="" />
+      <created>1711571606780</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711571606780</updated>
+      <workItem from="1711571607784" duration="169000" />
+      <workItem from="1711635154110" duration="21000" />
+      <workItem from="1711653373248" duration="1167000" />
+      <workItem from="1711659670067" duration="132000" />
+      <workItem from="1712649579311" duration="255000" />
+      <workItem from="1712649850256" duration="318000" />
+      <workItem from="1712655307339" duration="8000" />
+      <workItem from="1712674540434" duration="179000" />
+      <workItem from="1712780372885" duration="18000" />
+      <workItem from="1713218601646" duration="139000" />
+      <workItem from="1713264887827" duration="21000" />
+      <workItem from="1713456898051" duration="1343000" />
+      <workItem from="1713572632644" duration="13000" />
+      <workItem from="1715112214995" duration="65000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
