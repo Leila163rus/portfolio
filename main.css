@@ -24,8 +24,9 @@ img {
 }
 
 .one p {
-    margin-top: -125px;
-    margin-left: 160px;
+    top: 75%;
+    right: 69%;
+    /*margin-left: 160px; */
     position: absolute;
     font-family: Monotype Corsiva, cursive;
     font-size: 150%;

@@ -26,6 +26,7 @@ a {
     color: white;
     transition: color .3s ease-out;
 }
+
 a::before {
     content: "";
     position: absolute;
@@ -41,6 +42,7 @@ a::before {
 a:hover {
     color: #fff;
 }
+
 a:hover::before {
     height: 100%;
 }
@@ -51,7 +53,7 @@ p {
     margin-left: 30%;
     margin-top: 6%;
     color: white;
-    /*display: inline-block;*/
+    white-space: pre-line;
     font-size: 160%;
     font-family: Monotype Corsiva, cursive;
     letter-spacing: 0.25rem;
