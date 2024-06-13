@@ -27,6 +27,7 @@ a::before {
   width: 100%;
   background: #1a1d20;
   transition: height .3s ease-out;
+  border-radius: 7px;
 }
 
 a:hover {
