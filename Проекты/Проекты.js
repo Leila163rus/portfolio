@@ -13,22 +13,22 @@ putPred();
 getWeath();
 
 function putDscrip() {
-    if (dscrip.textContent === '') {
-        dscrip.textContent = proekt.clock;
-    }
+  if (dscrip.textContent === '') {
+    dscrip.textContent = proekt.clock;
+  }
 }
 
 function putPred() {
-    if (pred.textContent === '') {
-        pred.textContent = proekt.prediction;
-    }
+  if (pred.textContent === '') {
+    pred.textContent = proekt.prediction;
+  }
 }
 
 function getWeath() {
-    if (weath.textContent === '') {
-        weath.textContent = proekt.weather;
-        console.log(weath.textContent);
-    }
+  if (weath.textContent === '') {
+    weath.textContent = proekt.weather;
+    console.log(weath.textContent);
+  }
 }
 
 

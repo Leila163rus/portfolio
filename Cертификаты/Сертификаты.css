@@ -1,16 +1,16 @@
 body {
-    background-color: #b5b6b7;
+  background-color: #b5b6b7;
 }
 
 div {
-    width: 550px;
-    height: 380px;
-    display: inline-block;
-    padding: 50px;
-    margin-left: 60px;
+  width: 550px;
+  height: 380px;
+  display: inline-block;
+  padding: 50px;
+  margin-left: 60px;
 }
  img {
-     width: 540px;
-     height: 350px;
+   width: 540px;
+   height: 350px;
  }
 
