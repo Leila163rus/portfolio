@@ -5,12 +5,15 @@ import {proekt} from './data.js'
 const dscrip = document.getElementById('clock');
 const pred = document.getElementById('prediction');
 const weath = document.getElementById('weather')
+const auth = document.getElementById('auth')
 
 putDscrip();
 
 putPred();
 
 getWeath();
+
+putAuth();
 
 function putDscrip() {
   if (dscrip.textContent === '') {
@@ -27,7 +30,12 @@ function putPred() {
 function getWeath() {
   if (weath.textContent === '') {
     weath.textContent = proekt.weather;
-    console.log(weath.textContent);
+  }
+}
+
+function putAuth() {
+  if (auth.textContent === '') {
+    auth.textContent = proekt.auth;
   }
 }
 
