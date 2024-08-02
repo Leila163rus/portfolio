@@ -6,6 +6,7 @@ const dscrip = document.getElementById('clock');
 const pred = document.getElementById('prediction');
 const weath = document.getElementById('weather')
 const auth = document.getElementById('auth')
+const enWord = document.getElementById('enWord')
 
 putDscrip();
 
@@ -14,6 +15,8 @@ putPred();
 getWeath();
 
 putAuth();
+
+putEnWord();
 
 function putDscrip() {
   if (dscrip.textContent === '') {
@@ -36,6 +39,12 @@ function getWeath() {
 function putAuth() {
   if (auth.textContent === '') {
     auth.textContent = proekt.auth;
+  }
+}
+
+function putEnWord() {
+  if (enWord.textContent === '') {
+    enWord.textContent = proekt.enWord;
   }
 }
 
