@@ -81,6 +81,8 @@ body {
 }
 
 img {
+  width: 520px;
+  height: 760px;
   filter: grayscale(60%);
   margin-top: 15px;
   border-radius: 5px;
@@ -99,4 +101,45 @@ img {
 .four p {
   font-size: 115%;
   padding: 15px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  body {
+    display: inline-block;
+    height: max-content;
+    max-height: 100%;
+    zoom: 45%;
+    padding: 5px;
+  }
+
+  .header {
+    margin-right: 50px;
+    zoom: 70%;
+    margin-top: 35%;
+    margin-left: 53%;
+  }
+
+  .nav {
+    float: left;
+    width: max-content;
+  }
+
+  img {
+    float: left;
+    margin-top: 5%;
+    zoom: 75%;
+  }
+
+  .one p {
+    display: none;
+  }
+
+  .four {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    text-align: center; 
+    width: 99%;
+    zoom: 75%;
+  }
 }

@@ -37,3 +37,9 @@ a:hover {
 a:hover::before {
   height: 100%;
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  body {
+    zoom: 32%;
+  }
+}

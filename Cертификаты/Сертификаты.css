@@ -9,8 +9,15 @@ div {
   padding: 50px;
   margin-left: 60px;
 }
- img {
+
+img {
    width: 540px;
    height: 350px;
- }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  body {
+    zoom: 25%;
+  }
+}
 
