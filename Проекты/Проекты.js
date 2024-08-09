@@ -7,6 +7,7 @@ const pred = document.getElementById('prediction');
 const weath = document.getElementById('weather')
 const auth = document.getElementById('auth')
 const enWord = document.getElementById('enWord')
+const words = document.getElementById('words')
 
 putDscrip();
 
@@ -17,6 +18,8 @@ getWeath();
 putAuth();
 
 putEnWord();
+
+putWords();
 
 function putDscrip() {
   if (dscrip.textContent === '') {
@@ -45,6 +48,12 @@ function putAuth() {
 function putEnWord() {
   if (enWord.textContent === '') {
     enWord.textContent = proekt.enWord;
+  }
+}
+
+function putWords() {
+  if (words.textContent === '') {
+    words.textContent = proekt.words;
   }
 }
 

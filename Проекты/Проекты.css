@@ -83,6 +83,10 @@ p {
   margin-bottom: 45px;
 }
 
+.container-6 {
+  margin-bottom: 45px;
+}
+
 @media (min-width: 320px) and (max-width: 480px) {
   body {
     zoom: 25%;
