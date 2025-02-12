@@ -4,10 +4,11 @@ import {proekt} from './data.js'
 
 const dscrip = document.getElementById('clock');
 const pred = document.getElementById('prediction');
-const weath = document.getElementById('weather')
-const auth = document.getElementById('auth')
-const enWord = document.getElementById('enWord')
-const words = document.getElementById('words')
+const weath = document.getElementById('weather');
+const auth = document.getElementById('auth');
+const enWord = document.getElementById('enWord');
+const words = document.getElementById('words');
+const notepad = document.getElementById('notepad');
 
 putDscrip();
 
@@ -20,6 +21,8 @@ putAuth();
 putEnWord();
 
 putWords();
+
+putNotepad();
 
 function putDscrip() {
   if (dscrip.textContent === '') {
@@ -57,6 +60,11 @@ function putWords() {
   }
 }
 
+function putNotepad() {
+  if (notepad.textContent === '') {
+    notepad.textContent = proekt.notepad;
+  }
+}
 
 
 
