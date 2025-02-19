@@ -9,6 +9,7 @@ const auth = document.getElementById('auth');
 const enWord = document.getElementById('enWord');
 const words = document.getElementById('words');
 const notepad = document.getElementById('notepad');
+const user = document.getElementById('user');
 
 putDscrip();
 
@@ -23,6 +24,8 @@ putEnWord();
 putWords();
 
 putNotepad();
+
+putUser();
 
 function putDscrip() {
   if (dscrip.textContent === '') {
@@ -63,6 +66,12 @@ function putWords() {
 function putNotepad() {
   if (notepad.textContent === '') {
     notepad.textContent = proekt.notepad;
+  }
+}
+
+function putUser() {
+  if (user.textContent === '') {
+    user.textContent = proekt.user;
   }
 }
 
