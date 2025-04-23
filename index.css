@@ -1,0 +1,71 @@
+body{
+  max-width: 100%;
+  height: auto;
+}
+
+.col-4 .img-fluid {
+  border-radius: 0.7em;
+  box-shadow: 0 2em 2em rgba(0, 0, 0, 0.50);
+  filter: grayscale(55%);
+  backdrop-filter: blur(1.5em);
+}
+
+.nav {
+  background-color: #1a1d20;
+  border-radius: 0.7em;
+  box-shadow: 0 2em 2em rgba(0, 0, 0, 0.50);
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-family: "Calibri Light", serif; 
+  font-size: 1.2em;
+}
+
+.nav a:hover {
+  color: white;
+  text-shadow: 0.5em 0.5em 2em antiquewhite;
+}
+
+main h1 {
+  font-size: 3.5em;
+  line-height: 1.5em;
+  font-family: "Arial Black", fantasy; 
+}
+
+main p {
+  line-height: 1.5em;
+  font-size: 1.3em;
+  font-family: Arial, sans-serif, cursive;
+}
+
+@media (max-width: 1400px) {
+  .col-8, nav, footer {
+    zoom: 100%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .col-8, nav, footer {
+    zoom: 80%;
+  }
+}
+
+@media (max-width: 992px) {
+  .col-8, nav, footer {
+    zoom: 60%;
+  }
+}
+
+@media (max-width: 768px) {
+  .col-8, nav, footer {
+    zoom: 35%;
+  }
+}
+
+@media (max-width: 480px) {
+  .col-8, nav, footer {
+    zoom: 20%;
+  }
+}
