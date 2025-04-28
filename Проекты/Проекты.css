@@ -1,5 +1,5 @@
 body {
-  width: 100%; 
+  width: auto; 
   overflow-x: hidden;
   background-color: #b5b6b7;
   margin: 1.2rem;
@@ -44,6 +44,7 @@ p {
 
 section a {
   margin-top: -2.5%;
+  left: 40%;
   color: white;
   position: absolute;
   text-decoration: none;
